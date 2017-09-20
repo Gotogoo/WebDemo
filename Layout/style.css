@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+#team-box {
+    border: 1px solid #999;
+    margin: 20px;
+    background-color: #eee;
+}
+
+#team-box > div {
+    background-color: #fff;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#team-logo-box {
+    border: 1px solid #999;
+    width: 200px;
+    margin: 20px;
+}
+
+#team-logo-box span {
+    float:right;
+    margin: 20px 20px 20px 0;
+}
+
+#team-introduce-box {
+    border: 1px solid #999;
+    width: calc(100% - 200px - 120px - 80px - 10px);
+    margin: 20px 20px 20px 0; 
+    padding: 20px;
+}
+
+#team-introduce-box p {
+    font-size: 12px;
+    text-indent: 2em;
+}
+
+#team-personalLogo-box{
+    border: 1px solid #999; 
+    width: 120px;
+    margin: 20px 20px 20px 0; 
+}
+
+a img {
+    margin: 20px;
+    width: 80;
+    height: 80;
+}
+a:nth-child(n+2) img {
+    margin-top: 0;
+}

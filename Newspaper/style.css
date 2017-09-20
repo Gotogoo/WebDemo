@@ -1,0 +1,158 @@
+body {
+    width: 980px;
+    height: 1386px;
+    border: 1px solid #c0c0c0;
+    box-shadow: 5px 5px 2px #eee;
+    margin: 0 auto;
+    padding: 0;   
+}
+
+.container {
+    width: 892px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.header {
+    height: 63px;
+    font-size: 12px;
+    font-family: "SimHei";    
+}
+.header .redBox {
+    width: 110px;
+    height: 61px;
+    background: #d45d5c;
+    float: left;
+}
+.header .redBox .url { 
+    color: #ffffff;
+    margin-top: 45px;
+    padding-left: 5px;
+}
+.header .date {
+    margin-top: 45px;    
+    color: #d45d5c;
+    float: right;
+    
+}
+.header .parting-line {
+    position: relative;
+    top: 61px;
+    border-bottom: 2px solid #938e8c;    
+}
+
+.content {
+    margin-top: 20px;    
+}
+.content .top-section {
+
+}
+.content .top-left-section {
+    width: 641px;
+    float: left;
+}
+.content .top-left-section .image{
+    width: 641px;
+    height: 301px;
+    z-index: 0;
+}
+.shadow-left {
+    /* width: 191px;
+    height: 301px;
+    background: rgba(49, 111, 77, 0.6);
+    float: left;
+    position: absolute;
+    z-index: 1; */
+}
+.shadow-right {
+
+}
+.content .top-left-section .introduce {   
+}
+.content .top-left-section #what {
+    width: 40%;
+    float: left;    
+}
+.content .top-left-section #when {
+    width: 30%;
+    float: left;
+}
+.content .top-left-section #how {
+    width: 30%;
+    float: left;
+}
+.content .top-left-section .title {
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 16px;
+    font-family: "Microsoft YaHei"
+}
+.content .top-left-section #what .title {
+    color: #418c59;
+}
+.content .top-left-section #when .title {
+    color: #d2994f;
+}
+.content .top-left-section #how .title {
+    color: #cc7680;
+}
+.paragraph {
+    font-size: 12px;
+    font-family: "Microsoft YaHei";
+    color: #231815;
+    opacity: 0.7;
+}
+
+.content .top-right-section {
+    width: 203px;
+    margin-top: 0px;
+    float: right;
+}
+.content .top-right-section .parting-line {
+    border-top: 2px solid #cc8091;
+}
+.content .top-right-section .title {
+    font-size: 16px;
+    font-family: "Microsoft YaHei";
+    text-decoration: underline;
+    line-height: 10px;
+}
+.content .top-right-section .title span {
+    font-size: 24px;    
+}
+.content .top-right-section > p{
+    font-size: 12px;
+    color: #676767;
+    font-family: "楷体";
+}
+.content .top-right-section .number700{
+    font-size: 100px;
+    font-style: italic;
+    color: #75b86b;
+    font-family: "Microsoft YaHei";
+}
+.content .top-right-section .number3 {
+    font-size: 55px;
+    color: #cc8091;
+    font-family: "Microsoft YaHei";
+    float: left;
+}
+.content .top-right-section .bigCss {
+    font-size: 21px;
+    color: #cc8091;
+    font-family: "Microsoft YaHei";
+    float: left;
+}
+.content .top-right-section .smallCss {
+    font-size: 10px;
+    color: #cc8091;
+    font-family: "Microsoft YaHei";
+}
+.content .bottom-section {
+    
+}
+
+
+.footer {
+ 
+}
